@@ -1,0 +1,74 @@
+// --------------------------------------------------
+// ✅ 1. Bootstrap Variable Overrides (before import)
+// --------------------------------------------------
+
+// 🎨 Custom Color Overrides
+$primary:       #ff5722;
+$secondary:     #009688;
+$success:       #4caf50;
+$danger:        #e91e63;
+$info:          #03a9f4;
+$warning:       #ffc107;
+$light:         #f1f1f1;
+$dark:          #212121;
+
+// 🅰️ Font Settings
+$font-family-sans-serif: 'Poppins', 'Helvetica Neue', sans-serif;
+$font-size-base: 1.125rem; // base font size = 18px
+$headings-font-weight: 600;
+
+// 📏 Container Widths
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1440px,
+  xxxl: 1540px
+);
+
+// 🔠 Optional: Custom Spacing Scale
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4.5
+);
+
+// ✅ Optional: Custom Breakpoints (if needed)
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1440px,
+  xxxl: 1600px
+);
+
+// --------------------------------------------------
+// ✅ 2. Import Bootstrap
+// --------------------------------------------------
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// --------------------------------------------------
+// ✅ 3. (Optional) Custom Classes or Utilities
+// --------------------------------------------------
+
+.custom-heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: $primary;
+}
+
+.custom-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+
