@@ -127,5 +127,3 @@ Now your site will:
 ---
 
 ## 💡 Tip: You can customize **everything** via SCSS — even buttons, grid breakpoints, spacing, shadows, etc.
-
-Would you like me to create a full example zip of this setup so you can just open and run it?
